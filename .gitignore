@@ -1,0 +1,53 @@
+# CMake构建文件
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+!cmake/*.cmake
+
+# 编译输出
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.su
+*.d
+*.a
+*.lib
+
+# IDE配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 调试文件
+*.log
+*.dmp
+
+# 文档生成
+*.pdf
+Doxyfile
+doxygen/
+html/
+latex/
+
+# 临时文件
+*.tmp
+*.bak
+*.orig
+# Ignore local collaboration traces and internal process artifacts
+.superpowers/
+docs/superpowers/
+docs/assets/
+docs/*.svg
+!docs/flyOS-kernel-architecture.png
