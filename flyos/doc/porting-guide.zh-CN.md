@@ -1,5 +1,7 @@
 # flyOS 移植指南
 
+[English](porting-guide.md)
+
 本文档面向想在公开试用阶段评估或理解 flyOS 端口边界的开发者。
 
 ## 1. 当前公开端口
@@ -34,9 +36,9 @@
 
 建议按这个顺序阅读：
 
-1. 根 `README.md`
-2. `快速开始.md`
-3. `配置指南.md`
+1. 根 `README.zh-CN.md`
+2. `quick-start.zh-CN.md`
+3. `configuration.zh-CN.md`
 4. 当前目标平台 `port/<platform>/` 下的实现
 
 ## 5. 公开分支的现实边界

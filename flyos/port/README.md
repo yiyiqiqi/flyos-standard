@@ -1,5 +1,7 @@
 # flyOS Port Layer
 
+[简体中文](README.zh-CN.md)
+
 This directory contains the public port boundary for the `flyos-standard` release line.
 
 ## Scope

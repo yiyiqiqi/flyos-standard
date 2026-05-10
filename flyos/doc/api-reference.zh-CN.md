@@ -1,5 +1,7 @@
 # flyOS API 参考
 
+[English](api-reference.md)
+
 本文档给出当前公开 `flyos-standard` 版本的核心 API 视图，帮助试用者快速理解公开能力边界。
 
 ## 1. 头文件入口

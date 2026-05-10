@@ -1,13 +1,20 @@
-# Bug Report
+# flyOS Issue 模板
+
+## 问题类型
+
+- [ ] bug
+- [ ] porting question
+- [ ] trial feedback
 
 ## 问题概述
 
-请简要描述问题。
+请清楚描述问题或反馈内容。
 
 ## 环境信息
 
 - 平台：
 - 工具链：
+- HAL/SDK：
 - 分支或提交：
 - 构建命令：
 

@@ -1,5 +1,7 @@
 # STM32F4 Port Notes
 
+[简体中文](README.zh-CN.md)
+
 This directory contains the STM32F4 public trial port for `flyos-standard`.
 
 ## Intended use

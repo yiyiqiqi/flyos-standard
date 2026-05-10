@@ -1,5 +1,7 @@
 # flyOS 编码规范
 
+[English](coding-standard.md)
+
 本文档给出 `flyos-standard` 公开版本中，外部贡献者和试用者最需要理解的编码约定。
 
 ## 1. 目标

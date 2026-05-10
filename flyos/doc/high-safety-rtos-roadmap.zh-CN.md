@@ -1,5 +1,7 @@
 # FlyOS 长期演进说明
 
+[English](high-safety-rtos-roadmap.md)
+
 > 说明：本文件不是 `flyos-standard` 首次公开版本的主文档，也不构成当前公开版本的能力承诺。
 
 ## 1. 文件定位
@@ -39,10 +41,10 @@ FlyOS 长期可能持续关注以下方向：
 
 如果你当前是第一次接触 flyOS，请优先阅读：
 
-1. `README.md`
-2. `flyos/doc/快速开始.md`
-3. `flyos/doc/配置指南.md`
-4. `flyos/doc/移植指南.md`
-5. `flyos/doc/API参考.md`
+1. `README.zh-CN.md`
+2. `quick-start.zh-CN.md`
+3. `configuration.zh-CN.md`
+4. `porting-guide.zh-CN.md`
+5. `api-reference.zh-CN.md`
 
 而不是把本文件当作试用入口。

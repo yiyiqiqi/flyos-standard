@@ -1,5 +1,7 @@
 # S32K344 Port Notes
 
+[简体中文](README.zh-CN.md)
+
 This directory contains the S32K344 public trial port for `flyos-standard`.
 
 ## Intended use

@@ -1,5 +1,7 @@
 # flyOS
 
+[简体中文](README.zh-CN.md)
+
 flyOS is a lightweight RTOS kernel focused on task scheduling, IPC, memory management, and Cortex-M port abstraction, while evolving toward high-reliability and high-safety embedded scenarios.
 
 ![flyOS Kernel Architecture](docs/flyOS-kernel-architecture.png)
@@ -58,10 +60,17 @@ Available values:
 
 Start here:
 
-- `flyos/doc/快速开始.md`
-- `flyos/doc/配置指南.md`
-- `flyos/doc/移植指南.md`
-- `flyos/doc/API参考.md`
+- `flyos/doc/quick-start.md`
+- `flyos/doc/configuration.md`
+- `flyos/doc/porting-guide.md`
+- `flyos/doc/api-reference.md`
+
+## Demo Repositories
+
+If you want a board-level STM32 demo project built around flyOS, start here:
+
+- GitHub: `https://github.com/yiyiqiqi/flyos-stm32-demo.git`
+- Gitee: `https://gitee.com/yangyang__zhang_admin/flyos-stm32-demo.git`
 
 ## Repository Layout
 
@@ -71,7 +80,7 @@ Start here:
 ├─ README.md
 ├─ docs/
 │  ├─ README.md
-│  ├─ 编码规范.md
+│  ├─ coding-standard.md
 │  └─ flyOS-kernel-architecture.png
 └─ flyos/
    ├─ CMakeLists.txt
@@ -90,21 +99,21 @@ Start here:
 ## Documentation
 
 - `docs/README.md` - public documentation map
-- `docs/编码规范.md` - coding conventions used in the repository
-- `flyos/doc/快速开始.md` - first integration path
-- `flyos/doc/API参考.md` - public kernel API overview
-- `flyos/doc/架构设计.md` - runtime architecture and subsystem responsibilities
-- `flyos/doc/配置指南.md` - build-time configuration guide
-- `flyos/doc/移植指南.md` - platform porting guidance
+- `docs/coding-standard.md` - coding conventions used in the repository
+- `flyos/doc/quick-start.md` - first integration path
+- `flyos/doc/api-reference.md` - public kernel API overview
+- `flyos/doc/architecture.md` - runtime architecture and subsystem responsibilities
+- `flyos/doc/configuration.md` - build-time configuration guide
+- `flyos/doc/porting-guide.md` - platform porting guidance
 
 ## Documentation Layout Note
 
-This release keeps two documentation levels:
+This release keeps two documentation levels and bilingual document pairs:
 
 - `docs/` for repository-level public guidance;
 - `flyos/doc/` for kernel-specific technical notes.
 
-This is acceptable for the first public release because it keeps the public entry path clear without forcing a risky directory migration right before launch. A later cleanup can unify `doc` and `docs` naming if needed.
+English filenames are primary. Simplified Chinese translations are provided as sibling files with the `.zh-CN.md` suffix.
 
 ## Current Boundary
 

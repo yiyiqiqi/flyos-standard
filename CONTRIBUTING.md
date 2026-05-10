@@ -1,5 +1,7 @@
 # Contributing to flyOS
 
+[简体中文](CONTRIBUTING.zh-CN.md)
+
 Thanks for considering a contribution to the public `flyos-standard` release line.
 
 ## What this repository is optimizing for
@@ -20,8 +22,8 @@ Please read:
 - `README.md`
 - `ROADMAP.md`
 - `FAQ.md`
-- `flyos/doc/快速开始.md`
-- `flyos/doc/移植指南.md`
+- `flyos/doc/quick-start.md`
+- `flyos/doc/porting-guide.md`
 
 ## Good contribution types
 

@@ -1,5 +1,7 @@
 # flyOS 配置指南
 
+[English](configuration.md)
+
 本文档说明当前公开版本中，与试用最相关的编译期配置项。
 
 ## 1. 配置入口

@@ -1,5 +1,7 @@
 # Roadmap
 
+[简体中文](ROADMAP.zh-CN.md)
+
 This roadmap describes the public direction of `flyos-standard`. It is intentionally conservative: it tracks what outside users should expect from the open-source line, not every internal research direction.
 
 ## Current release line: v0.1.x

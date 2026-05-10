@@ -1,5 +1,7 @@
 # flyOS 快速开始
 
+[English](quick-start.md)
+
 本文档面向首次试用 `flyos-standard` 的嵌入式开发者，目标是在最少背景知识下完成一次最基本的集成理解。
 
 ## 1. 适用范围
@@ -61,12 +63,12 @@ flyos/
 
 建议理解顺序：
 
-1. `README.md`
-2. `flyos/doc/快速开始.md`
-3. `flyos/doc/配置指南.md`
-4. `flyos/doc/移植指南.md`
-5. `flyos/doc/API参考.md`
-6. `flyos/doc/架构设计.md`
+1. `README.zh-CN.md`
+2. `quick-start.zh-CN.md`
+3. `configuration.zh-CN.md`
+4. `porting-guide.zh-CN.md`
+5. `api-reference.zh-CN.md`
+6. `architecture.zh-CN.md`
 
 ## 5. 最小构建接入
 
@@ -88,7 +90,14 @@ flyos/
 
 ## 7. 下一步读什么
 
-- 想看可调参数：读 `配置指南.md`
-- 想看端口边界：读 `移植指南.md`
-- 想看公开 API：读 `API参考.md`
-- 想看整体职责：读 `架构设计.md`
+- 想看可调参数：读 `configuration.zh-CN.md`
+- 想看端口边界：读 `porting-guide.zh-CN.md`
+- 想看公开 API：读 `api-reference.zh-CN.md`
+- 想看整体职责：读 `architecture.zh-CN.md`
+
+## 8. Demo 仓库
+
+如果你想直接从板级 STM32 演示工程开始，可以查看：
+
+- GitHub：`https://github.com/yiyiqiqi/flyos-stm32-demo.git`
+- Gitee：`https://gitee.com/yangyang__zhang_admin/flyos-stm32-demo.git`

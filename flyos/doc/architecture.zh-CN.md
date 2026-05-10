@@ -1,5 +1,7 @@
 # flyOS 架构设计
 
+[English](architecture.md)
+
 本文档描述 `flyos-standard` 当前公开版本中，外部试用者需要理解的核心架构边界。
 
 ## 1. 架构定位

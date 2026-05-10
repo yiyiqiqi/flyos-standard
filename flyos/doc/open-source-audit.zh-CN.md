@@ -1,5 +1,7 @@
 # 公开代码审计记录
 
+[English](open-source-audit.md)
+
 ## 本轮审计关注点
 
 本轮针对 `flyos-standard` 首次公开版本，重点审计了以下方面：
@@ -17,12 +19,12 @@
 
 - `README.md`
 - `docs/README.md`
-- `docs/编码规范.md`
-- `flyos/doc/快速开始.md`
-- `flyos/doc/API参考.md`
-- `flyos/doc/架构设计.md`
-- `flyos/doc/配置指南.md`
-- `flyos/doc/移植指南.md`
+- `docs/coding-standard.md`
+- `flyos/doc/quick-start.md`
+- `flyos/doc/api-reference.md`
+- `flyos/doc/architecture.md`
+- `flyos/doc/configuration.md`
+- `flyos/doc/porting-guide.md`
 - `flyos/port/README.md`
 - `flyos/port/stm32f4/README.md`
 - `flyos/port/s32k344/README.md`
@@ -38,7 +40,7 @@
 
 ### 3. 长期愿景文档降级处理
 
-`flyos/doc/FlyOS高安全性RTOS演进计划.md` 已改为长期演进说明，明确它不是当前公开版本的能力承诺，也不是试用入口。
+`flyos/doc/high-safety-rtos-roadmap.md` 已改为长期演进说明，明确它不是当前公开版本的能力承诺，也不是试用入口。
 
 ## 仍然存在、但当前可接受的观察
 

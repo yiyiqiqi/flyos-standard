@@ -1,5 +1,7 @@
 # Changelog
 
+[简体中文](CHANGELOG.zh-CN.md)
+
 All notable changes to the public `flyos-standard` release line should be documented in this file.
 
 The format follows a simple human-readable release log suitable for an early public project.

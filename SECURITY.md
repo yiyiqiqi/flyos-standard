@@ -1,5 +1,7 @@
 # Security Policy
 
+[简体中文](SECURITY.zh-CN.md)
+
 ## Scope
 
 Security-relevant reports are welcome for the public `flyos-standard` release line, especially in these areas:

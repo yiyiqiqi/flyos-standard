@@ -1,5 +1,7 @@
 # FAQ
 
+[简体中文](FAQ.zh-CN.md)
+
 ## Is flyOS production-ready?
 
 Not as a general public promise. The current public line is an early open-source trial release intended for evaluation, learning, porting practice, and feedback.
@@ -28,10 +30,10 @@ The public trial line currently targets:
 Start with:
 
 1. `README.md`
-2. `flyos/doc/快速开始.md`
-3. `flyos/doc/配置指南.md`
-4. `flyos/doc/移植指南.md`
-5. `flyos/doc/API参考.md`
+2. `flyos/doc/quick-start.md`
+3. `flyos/doc/configuration.md`
+4. `flyos/doc/porting-guide.md`
+5. `flyos/doc/api-reference.md`
 
 ## Can I use it commercially?
 

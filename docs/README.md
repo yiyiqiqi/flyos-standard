@@ -1,22 +1,33 @@
 # Documentation Map
 
-This directory contains the public-facing documentation for the first `flyos-standard` open-source release.
+[简体中文](README.zh-CN.md)
+
+This directory contains the public-facing documentation for the `flyos-standard` open-source release.
 
 ## Public files in `docs/`
 
 - `flyOS-kernel-architecture.png` - kernel architecture image used by the root README
-- `编码规范.md` - repository coding conventions
+- `coding-standard.md` - repository coding conventions
+- `coding-standard.zh-CN.md` - Simplified Chinese translation of the coding standard
 - `README.md` - this documentation map
+- `README.zh-CN.md` - Simplified Chinese translation of this map
 
 ## Public kernel docs in `flyos/doc/`
 
-- `快速开始.md` - first integration path
-- `API参考.md` - public API overview
-- `架构设计.md` - runtime architecture summary
-- `配置指南.md` - build-time configuration guide
-- `移植指南.md` - public porting guidance
-- `FlyOS高安全性RTOS演进计划.md` - long-term direction note, not a first-trial entry document
-- `公开代码审计记录.md` - open-source release audit note
+- `quick-start.md` - first integration path
+- `quick-start.zh-CN.md` - Simplified Chinese quick-start guide
+- `api-reference.md` - public API overview
+- `api-reference.zh-CN.md` - Simplified Chinese API overview
+- `architecture.md` - runtime architecture summary
+- `architecture.zh-CN.md` - Simplified Chinese architecture summary
+- `configuration.md` - build-time configuration guide
+- `configuration.zh-CN.md` - Simplified Chinese configuration guide
+- `porting-guide.md` - public porting guidance
+- `porting-guide.zh-CN.md` - Simplified Chinese porting guidance
+- `high-safety-rtos-roadmap.md` - long-term direction note, not a first-trial entry document
+- `high-safety-rtos-roadmap.zh-CN.md` - Simplified Chinese translation of the long-term direction note
+- `open-source-audit.md` - open-source release audit note
+- `open-source-audit.zh-CN.md` - Simplified Chinese audit note
 
 ## Why both `docs/` and `flyos/doc/`
 
@@ -25,7 +36,7 @@ This release keeps two documentation levels:
 - `docs/` for repository-level public guidance;
 - `flyos/doc/` for kernel-specific technical notes.
 
-For a first public release, this is acceptable and lower risk than moving files right before launch. A later cleanup can unify naming if the project wants a stricter open-source layout.
+English filenames are primary. Simplified Chinese translations are provided as sibling files with the `.zh-CN.md` suffix.
 
 ## What is intentionally not part of the public doc surface
 
