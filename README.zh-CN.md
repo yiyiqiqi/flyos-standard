@@ -4,7 +4,7 @@
 
 flyOS 是一个轻量级 RTOS 内核，当前聚焦于任务调度、IPC、内存管理和 Cortex-M 平台抽象，并朝着高可靠、高安全的嵌入式工程方向持续演进。
 
-![flyOS Kernel Architecture](docs/flyOS-kernel-architecture.png)
+![flyOS Kernel Architecture](flyos/doc/flyOS-kernel-architecture.png)
 
 ## 当前状态
 
@@ -79,12 +79,6 @@ cmake -S . -B build -DFLYOS_PLATFORM=stm32f4
 ├─ CMakeLists.txt
 ├─ README.md
 ├─ README.zh-CN.md
-├─ docs/
-│  ├─ README.md
-│  ├─ README.zh-CN.md
-│  ├─ coding-standard.md
-│  ├─ coding-standard.zh-CN.md
-│  └─ flyOS-kernel-architecture.png
 └─ flyos/
    ├─ CMakeLists.txt
    ├─ flyos_kernel.c
@@ -95,28 +89,27 @@ cmake -S . -B build -DFLYOS_PLATFORM=stm32f4
    ├─ flyos_mem.h
    ├─ flyos_config.h
    ├─ flyos_type.h
-   ├─ port/
-   └─ doc/
+   ├─ doc/
+   │  ├─ quick-start.md
+   │  ├─ quick-start.zh-CN.md
+   │  ├─ api-reference.md
+   │  ├─ api-reference.zh-CN.md
+   │  ├─ flyOS-kernel-architecture.png
+   │  └─ ...
+   └─ port/
 ```
 
 ## 文档入口
 
-- `docs/README.zh-CN.md` - 仓库级公开文档索引
-- `docs/coding-standard.zh-CN.md` - 仓库使用的编码规范
+当前公开试用文档只保留首次上手和能力边界相关内容：
+
 - `flyos/doc/quick-start.zh-CN.md` - 首次接入路径
 - `flyos/doc/api-reference.zh-CN.md` - 公开内核 API 概览
 - `flyos/doc/architecture.zh-CN.md` - 运行时架构与子模块职责
 - `flyos/doc/configuration.zh-CN.md` - 构建期配置说明
 - `flyos/doc/porting-guide.zh-CN.md` - 平台移植说明
 
-## 文档布局说明
-
-当前公开版本保留两层文档结构，并为公开文档提供中英文双语版本：
-
-- `docs/` 用于仓库级公开说明；
-- `flyos/doc/` 用于内核相关技术文档。
-
-英文文件名作为主文件名，简体中文版使用同名 `.zh-CN.md` 配对文件。
+仓库级支撑文档继续保留在根目录，例如 `CONTRIBUTING.zh-CN.md`、`FAQ.zh-CN.md`、`ROADMAP.zh-CN.md`、`SECURITY.zh-CN.md`。
 
 ## 当前公开边界
 

@@ -2,11 +2,11 @@
 
 [简体中文](api-reference.zh-CN.md)
 
-This document provides a high-level view of the core APIs in the current public `flyos-standard` release, so trial users can quickly understand the exposed capability boundary.
+This document provides a high-level view of the core APIs in the current `flyos-standard` release.
 
 ## 1. Header entry points
 
-The main public headers in the trial stage include:
+The main public headers include:
 
 - `flyos_kernel.h` - kernel lifecycle, task, and scheduling interfaces
 - `flyos_ipc.h` - IPC primitive interfaces
@@ -25,7 +25,7 @@ Key areas to focus on:
 
 ## 3. IPC interfaces
 
-The current public IPC capability includes:
+The current IPC capability includes:
 
 - semaphore
 - mutex
@@ -33,7 +33,7 @@ The current public IPC capability includes:
 - event
 - mailbox
 
-During trial use, it is recommended to verify:
+When evaluating these interfaces, it is recommended to verify:
 
 - create and delete flows;
 - blocking and timeout semantics;
@@ -42,7 +42,7 @@ During trial use, it is recommended to verify:
 
 ## 4. Memory interfaces
 
-The public memory capability mainly includes:
+The memory interfaces mainly include:
 
 - `flyos_mem_alloc()`
 - `flyos_mem_free()`
@@ -53,7 +53,7 @@ If memory statistics are enabled, you can also review the related statistic inte
 
 ## 5. Error codes and types
 
-Common public types and constants live in `flyos_type.h`, including:
+Common types and constants live in `flyos_type.h`, including:
 
 - `flyos_err_t`
 - `flyos_tick_t`
@@ -62,7 +62,7 @@ Common public types and constants live in `flyos_type.h`, including:
 
 ## 6. Current boundary note
 
-This file is an API-oriented entry document for public trial use. It is not a replacement for per-function comments.
+This file is an API-oriented entry document. It is not a replacement for per-function comments.
 
 If you need more detailed interface semantics, read the corresponding headers directly:
 

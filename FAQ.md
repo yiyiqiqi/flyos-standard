@@ -4,23 +4,23 @@
 
 ## Is flyOS production-ready?
 
-Not as a general public promise. The current public line is an early open-source trial release intended for evaluation, learning, porting practice, and feedback.
+Not yet as a general production-ready claim. The current release is better suited to evaluation, learning, porting practice, and feedback.
 
 ## Does flyOS already meet functional-safety or aerospace certification requirements?
 
-No. The project direction is reliability- and safety-oriented, but the current public release does not claim certification compliance.
+No. The project direction values reliability and safety, but the current release does not claim certification compliance.
 
 ## Why is the repository named `flyos-standard` while the project name is `flyOS`?
 
-`flyOS` is the project and technical brand. `flyos-standard` is the name chosen for the first public release line to keep the scope conservative and clearly separated from private development directions.
+`flyOS` is the project and technical brand. `flyos-standard` is the repository name used for the current open-source kernel line.
 
 ## Why is the public story focused on the kernel?
 
-Because the first public goal is a clean trial experience: understand the kernel, try the ports, run integration experiments, and provide feedback. Broader internal frameworks are not the first public promise.
+Because the current repository is centered on the kernel itself: understanding the core design, trying the available ports, running integration experiments, and providing feedback.
 
 ## Which platforms should I try first?
 
-The public trial line currently targets:
+The current release currently targets:
 
 - `stm32f4`
 - `s32k344`

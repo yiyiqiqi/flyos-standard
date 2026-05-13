@@ -47,7 +47,4 @@ latex/
 *.orig
 # Ignore local collaboration traces and internal process artifacts
 .superpowers/
-docs/superpowers/
-docs/assets/
-docs/*.svg
-!docs/flyOS-kernel-architecture.png
+!flyos/doc/flyOS-kernel-architecture.png

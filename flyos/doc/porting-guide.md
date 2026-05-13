@@ -2,16 +2,16 @@
 
 [简体中文](porting-guide.zh-CN.md)
 
-This document is for developers who want to evaluate or understand the flyOS port boundary during the public trial stage.
+This document is for developers who want to evaluate or understand the flyOS port boundary.
 
 ## 1. Current public ports
 
-The public trial branch currently includes:
+The current repository currently includes:
 
 - `stm32f4`
 - `s32k344`
 
-These are public trial targets, not complete capability promises for every downstream product scenario.
+These ports are available as reference implementations for the current codebase.
 
 ## 2. Port-layer responsibilities
 
@@ -41,12 +41,12 @@ Recommended reading order:
 3. `configuration.md`
 4. the implementation under `port/<platform>/`
 
-## 5. Realistic boundary of the public branch
+## 5. Current scope of the repository
 
-The current public branch is meant to let outside developers:
+The current repository is intended to help developers:
 
 - understand the platform boundary;
 - try build and integration paths;
-- provide porting and trial feedback.
+- provide porting feedback.
 
-It is not a product line that already promises broad platform coverage, certification-ready evidence, or frozen long-term APIs.
+It does not currently claim broad platform coverage, certification-ready evidence, or frozen long-term APIs.

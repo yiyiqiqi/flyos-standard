@@ -1,12 +1,12 @@
 ---
-name: Trial feedback / 试用反馈
-about: Share first-use feedback for the public flyOS release line / 分享 flyOS 公开发布线的首次试用反馈
-title: "[trial] "
+name: Evaluation feedback / 使用反馈
+about: Share feedback about setup, integration, and documentation / 分享关于配置、集成和文档的反馈
+title: "[feedback] "
 labels: feedback
 assignees: ""
 ---
 
-## Trial context / 试用背景
+## Context / 背景
 
 What platform and setup did you use?  
 你使用的是什么平台和环境？

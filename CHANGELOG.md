@@ -2,27 +2,27 @@
 
 [简体中文](CHANGELOG.zh-CN.md)
 
-All notable changes to the public `flyos-standard` release line should be documented in this file.
+All notable changes to `flyos-standard` should be documented in this file.
 
-The format follows a simple human-readable release log suitable for an early public project.
+The format follows a simple human-readable release log.
 
 ## [Unreleased]
 
 ### Planned
 
-- Prepare the first public release branch for dual-platform publication on GitHub and Gitee.
+- Prepare dual-platform publication on GitHub and Gitee.
 
 ## [0.1.0] - 2026-05-07
 
 ### Added
 
-- Public-facing repository README focused on trial users.
+- Repository README for early adopters and evaluators.
 - Apache-2.0 license for commercial-friendly open-source use.
-- Public contribution, security, roadmap, FAQ, and issue-template documents.
-- Public documentation map and rewritten kernel onboarding docs.
+- Contribution, security, roadmap, FAQ, and issue-template documents.
+- Kernel onboarding documents and repository guidance.
 
 ### Changed
 
-- Reframed the repository around the `flyOS` kernel as the public first-release story.
-- Removed internal planning and process artifacts from the intended public release surface.
-- Aligned public wording to emphasize trial use and long-term evolution rather than certification claims.
+- Reframed the repository around the `flyOS` kernel.
+- Removed non-release planning and process artifacts.
+- Revised release wording to avoid overstated capability claims.

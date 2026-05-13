@@ -2,7 +2,7 @@
 
 [简体中文](architecture.zh-CN.md)
 
-This document describes the core architecture boundaries that external trial users should understand in the current public `flyos-standard` release.
+This document describes the core architecture boundaries of the current `flyos-standard` release.
 
 ## 1. Architectural focus
 
@@ -46,7 +46,7 @@ Responsible for:
 
 - IPC primitives such as semaphore, mutex, queue, event, and mailbox;
 - the basic mechanisms for blocking and wake-up;
-- the foundational synchronization and communication capabilities exposed for public trial use.
+- the foundational synchronization and communication capabilities exposed by the kernel.
 
 ### 3.3 `flyos_mem.*`
 
@@ -64,12 +64,12 @@ Responsible for:
 - interrupt, Tick, and low-level port interfaces;
 - boundary integration with concrete HAL / SDK layers.
 
-## 4. Current public boundary
+## 4. Current scope
 
-The current public branch is meant to help outside users understand and try the kernel mainline rather than expose the complete internal development roadmap.
+The current repository is organized around the kernel mainline.
 
 Therefore:
 
-- public documentation is currently organized around the kernel;
-- internal planning notes, drafts, or higher-value private directions are not treated as the launch narrative;
-- long-term safety ambitions are not presented as current capabilities.
+- documentation is centered on kernel integration and behavior;
+- platform ports are described through their implementation boundary;
+- long-term engineering goals are not presented as current capabilities.

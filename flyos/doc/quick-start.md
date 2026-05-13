@@ -6,14 +6,14 @@ This document is intended for embedded developers who are trying `flyos-standard
 
 ## 1. Scope
 
-The current public release is mainly intended for:
+The current release is mainly intended for:
 
 - learning the basic structure of an RTOS kernel;
 - trying a kernel integration path inside a Cortex-M project;
 - evaluating scheduling, IPC, memory management, and port boundaries;
-- producing trial feedback.
+- producing implementation feedback.
 
-The current public release does not promise certification-grade safety or long-term ABI/API stability.
+The current release does not promise certification-grade safety or long-term ABI/API stability.
 
 ## 2. What you should prepare first
 
@@ -41,14 +41,14 @@ You can also select the platform during configuration:
 cmake -S . -B build -DFLYOS_PLATFORM=stm32f4
 ```
 
-Current public trial platforms:
+Current supported platforms:
 
 - `stm32f4`
 - `s32k344`
 
 ## 4. How to read the repository
 
-The core public directories are:
+The core directories are:
 
 ```text
 flyos/
@@ -72,21 +72,21 @@ Recommended reading order:
 
 ## 5. Minimum build integration target
 
-The minimum build target of the public branch is to:
+The minimum build target of the current repository is to:
 
 - let the upper project link against `flyos_kernel`;
 - select `FLYOS_PLATFORM` correctly;
 - build the platform port sources together with the upper HAL/SDK project.
 
-## 6. What to focus on during trial use
+## 6. What to focus on during evaluation
 
-For a first trial, focus on:
+For an initial evaluation, focus on:
 
 - whether the scheduler starts as expected;
 - whether Tick and delay behavior are correct;
 - whether the IPC primitives satisfy the most basic use cases;
 - whether the current port boundary is clear enough;
-- whether the documentation is sufficient for an independent trial.
+- whether the documentation is sufficient for independent use.
 
 ## 7. What to read next
 

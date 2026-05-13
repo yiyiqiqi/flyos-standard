@@ -4,20 +4,20 @@
 
 flyOS is a lightweight RTOS kernel focused on task scheduling, IPC, memory management, and Cortex-M port abstraction, while evolving toward high-reliability and high-safety embedded scenarios.
 
-![flyOS Kernel Architecture](docs/flyOS-kernel-architecture.png)
+![flyOS Kernel Architecture](flyos/doc/flyOS-kernel-architecture.png)
 
 ## Current Status
 
-flyOS is in an early open-source trial stage.
+flyOS is in an early open-source stage.
 
 It is intended for embedded developers who want to:
 
 - study a compact RTOS kernel implementation;
 - evaluate task scheduling, IPC, and memory-management design choices;
 - try basic porting and board bring-up on Cortex-M platforms;
-- give structured feedback before the project hardens its long-term public API.
+- provide feedback as the project evolves.
 
-The current public version does not claim compliance with any functional-safety, information-security, or aerospace certification standard. High reliability and high safety remain long-term engineering goals, not current release promises.
+The current version does not claim compliance with any functional-safety, information-security, or aerospace certification standard.
 
 ## Core Capabilities
 
@@ -31,8 +31,8 @@ The current public version does not claim compliance with any functional-safety,
 
 | Platform | MCU family | Status |
 | --- | --- | --- |
-| `stm32f4` | Cortex-M4 | Public trial target |
-| `s32k344` | Cortex-M7 | Public trial target |
+| `stm32f4` | Cortex-M4 | Available |
+| `s32k344` | Cortex-M7 | Available |
 
 ## Quick Start
 
@@ -78,10 +78,6 @@ If you want a board-level STM32 demo project built around flyOS, start here:
 .
 ├─ CMakeLists.txt
 ├─ README.md
-├─ docs/
-│  ├─ README.md
-│  ├─ coding-standard.md
-│  └─ flyOS-kernel-architecture.png
 └─ flyos/
    ├─ CMakeLists.txt
    ├─ flyos_kernel.c
@@ -92,51 +88,43 @@ If you want a board-level STM32 demo project built around flyOS, start here:
    ├─ flyos_mem.h
    ├─ flyos_config.h
    ├─ flyos_type.h
-   ├─ port/
-   └─ doc/
+   ├─ doc/
+   │  ├─ quick-start.md
+   │  ├─ api-reference.md
+   │  ├─ architecture.md
+   │  ├─ configuration.md
+   │  ├─ porting-guide.md
+   │  └─ flyOS-kernel-architecture.png
+   └─ port/
 ```
 
 ## Documentation
 
-- `docs/README.md` - public documentation map
-- `docs/coding-standard.md` - coding conventions used in the repository
+The main technical documents are:
+
 - `flyos/doc/quick-start.md` - first integration path
 - `flyos/doc/api-reference.md` - public kernel API overview
 - `flyos/doc/architecture.md` - runtime architecture and subsystem responsibilities
 - `flyos/doc/configuration.md` - build-time configuration guide
 - `flyos/doc/porting-guide.md` - platform porting guidance
 
-## Documentation Layout Note
+Additional repository guidance remains at the root, including `CONTRIBUTING.md`, `FAQ.md`, `ROADMAP.md`, and `SECURITY.md`.
 
-This release keeps two documentation levels and bilingual document pairs:
+## Current Scope
 
-- `docs/` for repository-level public guidance;
-- `flyos/doc/` for kernel-specific technical notes.
-
-English filenames are primary. Simplified Chinese translations are provided as sibling files with the `.zh-CN.md` suffix.
-
-## Current Boundary
-
-This first public release focuses on the kernel trial experience.
-
-Included in the public story:
+The current repository content focuses on:
 
 - kernel runtime;
 - IPC primitives;
 - memory management;
 - Cortex-M platform abstraction;
-- STM32F4 and S32K344 trial ports.
+- STM32F4 and S32K344 ports.
 
-Not part of the current public promise:
-
-- certification-grade safety claims;
-- mature long-term ABI/API stability guarantees;
-- full commercial feature line;
-- non-public planning notes and collaboration artifacts.
+It does not currently claim certification-grade safety coverage or frozen long-term ABI/API stability.
 
 ## Roadmap
 
-See `ROADMAP.md` for the current public roadmap.
+See `ROADMAP.md` for the current development roadmap.
 
 ## Contributing
 
@@ -144,7 +132,7 @@ See `CONTRIBUTING.md` before opening issues or pull requests.
 
 ## Support
 
-The maintainer welcomes trial feedback and can provide free chip-extension support for suitable public trial scenarios.
+Feedback and issue reports are welcome.
 
 Contact: `yangyang_zhang@yeah.net`
 

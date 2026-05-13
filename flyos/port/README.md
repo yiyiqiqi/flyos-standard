@@ -2,25 +2,25 @@
 
 [简体中文](README.zh-CN.md)
 
-This directory contains the public port boundary for the `flyos-standard` release line.
+This directory contains the port boundary for the `flyos-standard` release line.
 
 ## Scope
 
-The public port layer is responsible for:
+The port layer is responsible for:
 
 - context-switch support;
 - tick and interrupt-related low-level hooks;
 - platform-specific runtime glue;
 - the boundary between kernel code and board-level HAL/SDK code.
 
-## Public trial platforms
+## Supported platforms
 
 - `stm32f4`
 - `s32k344`
 
-## What a trial user should expect
+## What a user should expect
 
-A trial user should be able to:
+A user should be able to:
 
 - locate the platform-specific port files;
 - understand which lower-level responsibilities remain in the board project;
@@ -28,4 +28,4 @@ A trial user should be able to:
 
 ## What this layer does not promise
 
-The public port layer does not promise that every downstream board integration is turnkey. Users still need a valid startup environment, linker script, clock configuration, and HAL/SDK integration.
+The port layer does not promise that every downstream board integration is turnkey. Users still need a valid startup environment, linker script, clock configuration, and HAL/SDK integration.
